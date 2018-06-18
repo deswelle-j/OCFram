@@ -74,5 +74,4 @@ abstract class Entity implements \ArrayAccess
     {
       throw new \Exception('Impossible de supprimer une quelconque valeur');
     }
-  }
 }
