@@ -2,11 +2,13 @@
 
 namespace App\Frontend;
 
-class FrontendApplication extends FrontendApplication
+use \OCFram\Application;
+
+class FrontendApplication extends Application
 {
     public function __construct()
     {
-        parent::_construct();
+        parent::__construct();
 
         $this->name = "Frontend";
     }
